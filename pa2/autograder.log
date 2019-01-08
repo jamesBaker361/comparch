@@ -1,0 +1,38 @@
+2018-09-27 23:50:00,565 ERROR    Uncaught exception: a bytes-like object is required, not 'str'
+Traceback (most recent call last):
+  File "/Users/jamesbaker/Desktop/comparch/pa2/autograde.py", line 765, in main
+    assignment.test_project(runner, src_dir, data_dir)
+  File "/Users/jamesbaker/Desktop/comparch/pa2/autograde.py", line 464, in test_project
+    p.test_project(runner, src, data, **kws)
+  File "/Users/jamesbaker/Desktop/comparch/pa2/autograde.py", line 438, in test_project
+    runner.run_test(test)
+  File "/Users/jamesbaker/Desktop/comparch/pa2/autograde.py", line 610, in run_test
+    if test.run():
+  File "/Users/jamesbaker/Desktop/comparch/pa2/autograde.py", line 243, in run
+    correct = super(FileStdinTest, self).run()
+  File "/Users/jamesbaker/Desktop/comparch/pa2/autograde.py", line 196, in run
+    correct = super(FileRefTest,self).run()
+  File "/Users/jamesbaker/Desktop/comparch/pa2/autograde.py", line 99, in run
+    self.handle_stdin(p.stdin)
+  File "/Users/jamesbaker/Desktop/comparch/pa2/autograde.py", line 235, in handle_stdin
+    stdin.write(f.read())
+TypeError: a bytes-like object is required, not 'str'
+2018-10-14 22:39:14,532 ERROR    Uncaught exception: a bytes-like object is required, not 'str'
+Traceback (most recent call last):
+  File "/Users/jamesbaker/Desktop/comparch/pa2/autograde.py", line 754, in main
+    assignment.test_project(runner, src_dir, data_dir)
+  File "/Users/jamesbaker/Desktop/comparch/pa2/autograde.py", line 464, in test_project
+    p.test_project(runner, src, data, **kws)
+  File "/Users/jamesbaker/Desktop/comparch/pa2/autograde.py", line 438, in test_project
+    runner.run_test(test)
+  File "/Users/jamesbaker/Desktop/comparch/pa2/autograde.py", line 610, in run_test
+    if test.run():
+  File "/Users/jamesbaker/Desktop/comparch/pa2/autograde.py", line 243, in run
+    correct = super(FileStdinTest, self).run()
+  File "/Users/jamesbaker/Desktop/comparch/pa2/autograde.py", line 196, in run
+    correct = super(FileRefTest,self).run()
+  File "/Users/jamesbaker/Desktop/comparch/pa2/autograde.py", line 99, in run
+    self.handle_stdin(p.stdin)
+  File "/Users/jamesbaker/Desktop/comparch/pa2/autograde.py", line 235, in handle_stdin
+    stdin.write(f.read())
+TypeError: a bytes-like object is required, not 'str'

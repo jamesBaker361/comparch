@@ -1,0 +1,65 @@
+2018-09-23 16:12:53,357 ERROR    Uncaught exception: 'Counter' object has no attribute 'iteritems'
+Traceback (most recent call last):
+  File "/Users/jamesbaker/Desktop/comparch/pa1/autograde.py", line 732, in main
+    assignment.test_project(runner, src_dir, data_dir)
+  File "/Users/jamesbaker/Desktop/comparch/pa1/autograde.py", line 456, in test_project
+    p.test_project(runner, src, data, **kws)
+  File "/Users/jamesbaker/Desktop/comparch/pa1/autograde.py", line 442, in test_project
+    runner.record_group()
+  File "/Users/jamesbaker/miniconda3/lib/python3.7/contextlib.py", line 119, in __exit__
+    next(self.gen)
+  File "/Users/jamesbaker/Desktop/comparch/pa1/autograde.py", line 522, in project_context
+    for cat, score in self.current_scores[group].iteritems():
+AttributeError: 'Counter' object has no attribute 'iteritems'
+2018-09-23 16:14:45,661 ERROR    Uncaught exception: 'Counter' object has no attribute 'iteritems'
+Traceback (most recent call last):
+  File "/Users/jamesbaker/Desktop/comparch/pa1/autograde.py", line 743, in main
+    assignment.test_project(runner, src_dir, data_dir)
+  File "/Users/jamesbaker/Desktop/comparch/pa1/autograde.py", line 456, in test_project
+    p.test_project(runner, src, data, **kws)
+  File "/Users/jamesbaker/Desktop/comparch/pa1/autograde.py", line 442, in test_project
+    runner.record_group()
+  File "/Users/jamesbaker/miniconda3/lib/python3.7/contextlib.py", line 119, in __exit__
+    next(self.gen)
+  File "/Users/jamesbaker/Desktop/comparch/pa1/autograde.py", line 522, in project_context
+    for cat, score in self.current_scores[group].iteritems():
+AttributeError: 'Counter' object has no attribute 'iteritems'
+2018-09-23 16:14:54,221 ERROR    Uncaught exception: 'Counter' object has no attribute 'iteritems'
+Traceback (most recent call last):
+  File "/Users/jamesbaker/Desktop/comparch/pa1/autograde.py", line 743, in main
+    assignment.test_project(runner, src_dir, data_dir)
+  File "/Users/jamesbaker/Desktop/comparch/pa1/autograde.py", line 456, in test_project
+    p.test_project(runner, src, data, **kws)
+  File "/Users/jamesbaker/Desktop/comparch/pa1/autograde.py", line 442, in test_project
+    runner.record_group()
+  File "/Users/jamesbaker/miniconda3/lib/python3.7/contextlib.py", line 119, in __exit__
+    next(self.gen)
+  File "/Users/jamesbaker/Desktop/comparch/pa1/autograde.py", line 522, in project_context
+    for cat, score in self.current_scores[group].iteritems():
+AttributeError: 'Counter' object has no attribute 'iteritems'
+2018-09-23 16:15:22,229 ERROR    Uncaught exception: 'Counter' object has no attribute 'iteritems'
+Traceback (most recent call last):
+  File "/Users/jamesbaker/Desktop/comparch/pa1/autograde.py", line 743, in main
+    assignment.test_project(runner, src_dir, data_dir)
+  File "/Users/jamesbaker/Desktop/comparch/pa1/autograde.py", line 456, in test_project
+    p.test_project(runner, src, data, **kws)
+  File "/Users/jamesbaker/Desktop/comparch/pa1/autograde.py", line 442, in test_project
+    runner.record_group()
+  File "/Users/jamesbaker/miniconda3/lib/python3.7/contextlib.py", line 119, in __exit__
+    next(self.gen)
+  File "/Users/jamesbaker/Desktop/comparch/pa1/autograde.py", line 522, in project_context
+    for cat, score in self.current_scores[group].iteritems():
+AttributeError: 'Counter' object has no attribute 'iteritems'
+2018-09-23 17:46:59,138 ERROR    Uncaught exception: 'Counter' object has no attribute 'iteritems'
+Traceback (most recent call last):
+  File "/Users/jamesbaker/Desktop/comparch/pa1/autograde.py", line 743, in main
+    assignment.test_project(runner, src_dir, data_dir)
+  File "/Users/jamesbaker/Desktop/comparch/pa1/autograde.py", line 456, in test_project
+    p.test_project(runner, src, data, **kws)
+  File "/Users/jamesbaker/Desktop/comparch/pa1/autograde.py", line 442, in test_project
+    runner.record_group()
+  File "/Users/jamesbaker/miniconda3/lib/python3.7/contextlib.py", line 119, in __exit__
+    next(self.gen)
+  File "/Users/jamesbaker/Desktop/comparch/pa1/autograde.py", line 522, in project_context
+    for cat, score in self.current_scores[group].iteritems():
+AttributeError: 'Counter' object has no attribute 'iteritems'
